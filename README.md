@@ -49,6 +49,7 @@ A persistent Cross-Site Scripting (XSS) vulnerability exists in the WebAdmin bra
 ```
 https://172.16.15.13:9443/?_h=e3c4309339633cabffa7981595d9e9a4&page=uc&domain_name=asdasdss"><script>alert(1)</script>
 ```
+<img width="1417" height="471" alt="POC" src="https://github.com/user-attachments/assets/a4290291-f37b-461d-9ebe-c1521ff6692a" />
 
 3. Observe an alert dialog displaying the number "1," demonstrating arbitrary JavaScript execution.
 
