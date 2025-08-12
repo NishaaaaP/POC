@@ -73,7 +73,3 @@ The injected script executes an alert showing a JavaScript dialog, confirming th
 - CWE-79: Improper Neutralization of Input During Web Page Generation  
 - Cross-Site Scripting (XSS) attack techniques and prevention best practices
 
-
-[9] https://www.martellosecurity.com/kb/mitre/cwe/79/
-[10] https://owasp.org/www-community/attacks/xss/
-[11] https://www.codecademy.com/forum_questions/51fcfadd80ff33a93f003698
