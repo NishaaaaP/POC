@@ -10,20 +10,21 @@ Axigen Mail Server RXSS
 ## Affected Product
 
 - **Product:** Axigen Mail Server  
-- **Component:** WebAdmin Branding  
+- **Component:** domain name paramater 
 - **Version:** 10.6.15  
 
 ---
 
 ## Vulnerability Summary
 
-A persistent Cross-Site Scripting (XSS) vulnerability exists in the WebAdmin branding feature of Axigen Mail Server version 10.6.15. An authenticated administrator can inject arbitrary JavaScript code through the brand name field in the global settings. This malicious script executes whenever the dashboard page is loaded, potentially compromising the administrator’s session.
+Vulnerability Summary: A Reflected Cross-Site Scripting (XSS) vulnerability exists in the WebAdmin domain name feature of Axigen Mail Server version 10.6.15. An authenticated administrator can inject arbitrary JavaScript code through the domain name field in the url that will execute whenever the dashboard page is loaded, potentially compromising the administrator’s session.
+
 
 ---
 
 ## Vulnerability Details
 
-- **Vulnerability Type:** Cross-Site Scripting (Stored/Persistent)
+- **Vulnerability Type:** Cross-Site Scripting (Reflected)
 - **CWE:** CWE-79 (Improper Neutralization of Input During Web Page Generation)
 - **Impact:**
   - Execution of arbitrary JavaScript code in the administrator’s session context.
@@ -32,12 +33,6 @@ A persistent Cross-Site Scripting (XSS) vulnerability exists in the WebAdmin bra
   - Elevated risk of further server or application compromise through hijacked sessions.
 
 ---
-
-## Preconditions for Exploitation
-
-- Attacker must have valid administrator login credentials.
-- Attacker must access Global Settings to modify branding.
-- The administrator’s browser must visit the affected dashboard page after the malicious branding is saved.
 
 ---
 
