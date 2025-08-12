@@ -1,7 +1,7 @@
 # POC
 Axigen Mail Server RXSS
 
-# Vulnerability Report: Persistent Cross-Site Scripting (XSS) in Axigen Mail Server WebAdmin 
+# Vulnerability Report: Autheticated Reflected Cross-Site Scripting (XSS) in Axigen Mail Server WebAdmin 
 
 **Reporter:** Nisha Thakur | Cyber Security Associate | Green Tick Nepal Pvt. Ltd.
 
